@@ -2,17 +2,77 @@
     --color-primary: hsl(25, 97%, 53%)
 }
 
+/* Mobile Version */
+
+html {
+    font-size: 16.45%;
+}
+
+body {
+    font-family: 'Overpass', sans-serif;
+    font-size: 5rem;
+    background-color: hsl(216, 12%, 8%);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 90vh;
+}
+
+p {
+    line-height: 2;
+    color: gray;
+}
+
+h1 {
+    margin-bottom: 0;
+}
+
 .btn {
-    color: aqua;
+    background-color: hsl(25, 97%, 53%);
+    border-radius: 20rem;
+    height: 14rem;
+    border: none;
+    color: white;
+    font-size: 3rem;
+    width: 100%;
+    letter-spacing: 2px;
+    font-weight: 700;
 }
 
 #main {
-    border: 1px solid black;
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 100rem;
+    border-radius: 5rem;
+    background-color: hsl(213, 32%, 12%);
+    padding: 10rem;
+    color:hsl(0, 0%, 100%);
+    align-items: start;
+    margin: 10rem;
 }
 
 #numbers {
     display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
 }
+
+.circle {
+    width: 15rem;
+    height: 15rem;
+    border-radius: 50%;
+    background-color: hsl(213, 19%, 18%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Tablet Version */
+
+/* Desktop Version */
+
+
+
